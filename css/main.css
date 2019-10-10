@@ -833,7 +833,7 @@ font-size:35px;
 }
 /* Create three equal columns that floats next to each other */
 .column {
-  padding: 10px;
+  padding-bottom: 2px;
   color: white;
   float: left;
   width: 33.33%;
