@@ -1,1 +1,0 @@
-# nullptr-tech.github.io
