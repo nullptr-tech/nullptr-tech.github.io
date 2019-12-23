@@ -74,18 +74,35 @@ width: 250px;
 }
 }
 
-.parallax2{
-  height:400px;
-  background-size:cover;  
-  opacity: 0.7;
-  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url('../images/background.jpg');
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    position: relative;
+@supports (-webkit-overflow-scrolling: touch) {
+    .parallax2{
+    height:400px;
+    background-size:cover;  
+    opacity: 0.7;
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url('../images/background.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      position: relative;
+  }
 }
+
+@supports not (-webkit-overflow-scrolling: touch) {
+    .parallax2{
+    height:400px;
+    background-size:cover;  
+    opacity: 0.7;
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url('../images/background.jpg');
+       background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      position: relative;
+  }
+}
+
 .parallaxAboutUs{
   height:950px;
   background-size:cover;  
