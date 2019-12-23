@@ -46,7 +46,7 @@ body, html {
 }
 
 .homeParallax{
-  background:url('../images/null_profile.webp');
+  background:url('../images/null_profile.jpg');
       background-position: center;
     background-repeat: no-repeat;
     background-size: 750px 650px;
@@ -62,7 +62,7 @@ margin-top: -10px;
 }
 @media screen and (max-width: 480px) {
   .homeParallax{
-  background:url('../images/null_profile.webp');
+  background:url('../images/null_profile.jpg');
       background-position: center;
     background-repeat: no-repeat;
     background-size: 400px 350px;
@@ -78,8 +78,8 @@ width: 250px;
   height:400px;
   background-size:cover;  
   opacity: 0.7;
-  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url('../images/background.webp');
-  background-attachment: fixed;
+  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url('../images/background.jpg');
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,8 +90,8 @@ width: 250px;
   height:950px;
   background-size:cover;  
 
-  background: url('../images/background3.webp');
-  background-attachment: fixed;
+  background: url('../images/background3.jpg');
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -398,8 +398,8 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   height:650px;
   background-size:cover;  
 
-  background: url('../images/background3.webp');
-  background-attachment: fixed;
+  background: url('../images/background3.jpg');
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -815,8 +815,8 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 .parallax4{
   height:400px;
   background-size:cover;  
-  background: url('../images/background4.webp');
-  background-attachment: fixed;
+  background: url('../images/background4.jpg');
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -889,11 +889,15 @@ font-size:35px;
     }
  }
 
+.tm-home-right img{
+        border-radius: 20px 20px 20px 20px;
+}
 @media screen and (max-width:680px) {
       .column {
       width: 100%;
     }
      .tm-home-right img{
         width:97%;
+        border-radius: 20px 20px 20px 20px;
       }
  }
