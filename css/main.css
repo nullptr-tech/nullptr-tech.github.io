@@ -46,7 +46,7 @@ body, html {
 }
 
 .homeParallax{
-  background:url('../images/null_profile.webp') / 750px 650px;
+  background:url('../images/null_profile.webp') 0 0 / 750px 650px;
   background-attachment: fixed; 
       background-position: center;
     background-repeat: no-repeat;
@@ -62,11 +62,10 @@ margin-top: -10px;
 }
 @media screen and (max-width: 480px) {
   .homeParallax{
-  background:url('../images/null_profile.webp');
+  background:url('../images/null_profile.webp') 0 0 / 400px 350px;
   background-attachment: fixed; 
       background-position: center;
     background-repeat: no-repeat;
-    background-size: 400px 350px;
     height:100%;
     width:100%;
   }
