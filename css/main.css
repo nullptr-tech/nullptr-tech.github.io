@@ -40,14 +40,14 @@ body, html {
     padding-top: 3px!important;
     padding-bottom: 16px!important;
 }
-.parallaxPaContainer{
+.parallaxHomeContainer{
   height:100%;
   width:100%;
 }
 
 .homeParallax{
   background:url('../images/null_profile.webp');
-    background-position: center;
+      background-position: center;
     background-repeat: no-repeat;
     background-size: 750px 650px;
     height:100%;
@@ -63,7 +63,7 @@ margin-top: -10px;
 @media screen and (max-width: 480px) {
   .homeParallax{
   background:url('../images/null_profile.webp');
-    background-position: center;
+      background-position: center;
     background-repeat: no-repeat;
     background-size: 400px 350px;
     height:100%;
