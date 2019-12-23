@@ -40,17 +40,16 @@ body, html {
     padding-top: 3px!important;
     padding-bottom: 16px!important;
 }
-.parallaxHomeContainer{
+.parallaxPaContainer{
   height:100%;
   width:100%;
 }
 
 .homeParallax{
-  background:url('../images/null_profile.webp');
+  background:url('../images/null_profile.webp') / 750px 650px;
   background-attachment: fixed; 
       background-position: center;
     background-repeat: no-repeat;
-    background-size: 750px 650px;
     height:100%;
     width:100%;
 }
