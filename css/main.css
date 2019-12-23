@@ -62,9 +62,9 @@ margin-top: -10px;
 }
 @media screen and (max-width: 480px) {
   .homeParallax{
-  background:url('../images/null_profile.jpg') 0 0 /  400px 350px;
-  background-attachment: fixed;
-      background-position: center;
+  background:url('../images/null_profile.jpg');
+    background-size: 400px 350px;
+    background-position: center;
     background-repeat: no-repeat;
     height:100%;
     width:100%;
