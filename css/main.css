@@ -97,6 +97,18 @@ width: 250px;
     position: relative;
 }
 
+.parallax4{
+  height:400px;
+  background-size:cover;  
+  background: url('../images/background4.jpg');
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
 @media screen and (max-device-width: 1050px){
   .parallax2{
     height:400px;
@@ -109,6 +121,11 @@ width: 250px;
     background: url('../images/background3-small.jpg');
     text-align: center;
   }
+  .parallax4{
+  height:400px;
+  background: url('../images/background4.jpg');
+  text-align: center;
+}
 }
 
 .parallax2 .w3-display-middle span{
@@ -813,18 +830,6 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   margin-bottom: 8px;
 }
 
-
-.parallax4{
-  height:400px;
-  background-size:cover;  
-  background: url('../images/background4.jpg');
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    position: relative;
-}
 .parallax4 .w3-display-middle span{
 font-size:35px;
   color:#fff;
