@@ -62,10 +62,11 @@ margin-top: -10px;
 }
 @media screen and (max-width: 480px) {
   .homeParallax{
-  background:url('../images/null_profile.jpg') 0 0 / 400px 350px;
+  background:url('../images/null_profile.jpg') 0 0 /  400px 350px;
   background-attachment: fixed;
       background-position: center;
     background-repeat: no-repeat;
+    background-size: 400px 350px;
     height:100%;
     width:100%;
   }
@@ -74,36 +75,18 @@ width: 250px;
 }
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
-    .parallax2{
-    height:400px;
-    background-size:cover;  
-    opacity: 0.7;
-    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url('../images/background.jpg');
-      background-position: center;
-             background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-      text-align: center;
-      position: relative;
-  }
+.parallax2{
+  height:400px;
+  background-size:cover;  
+  opacity: 0.7;
+  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url('../images/background.jpg');
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
 }
-
-@supports not (-webkit-overflow-scrolling: touch) {
-    .parallax2{
-    height:400px;
-    background-size:cover;  
-    opacity: 0.7;
-    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3), rgba(255,255,255,0.1)), url('../images/background.jpg');
-       background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      text-align: center;
-      position: relative;
-  }
-}
-
 .parallaxAboutUs{
   height:950px;
   background-size:cover;  
