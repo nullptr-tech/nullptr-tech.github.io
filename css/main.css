@@ -5,6 +5,12 @@ body, html {
    background-color: black;
    scroll-behavior: smooth;
 }
+ /*-------------------------------------------FONTS---------------------------------------------*/
+@font-face {
+  font-family: 'audiowide-regular-webfont';
+  src: url('../fonts/audiowide-regular-webfont.eot');
+  src: url('../fonts/audiowide-regular-webfont.woff') format('woff'), url('../fonts/audiowide-regular-webfont.ttf') format('truetype'), url('../fonts/audiowide-regular-webfont.svg') format('svg');
+}
 .main {
   max-width: 1000px;
   margin: 3vh;
@@ -46,7 +52,7 @@ body, html {
 }
 
 .homeParallax{
-  background:url('../images/null_profile.jpg');
+  background:url('../images/null_profile_full.png');
    background-size: 750px 650px;
   background-attachment: fixed;
       background-position: center;
@@ -118,7 +124,7 @@ margin-top: -10px;
 }
 @media screen and (max-device-width: 800px){
    .homeParallax{
-  background:url('../images/null_profile-mobile.jpg');
+  background:url('../images/null_profile-mobile-full.jpg');
     background-size: 400px 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -519,8 +525,6 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   font-size:25px;
 }
 
-
-
 /**************** review_part css start ****************/
 /* line 4, /Applications/MAMP/htdocs/palash/cl/july 2019/july/194 Restaurant/194 Restaurant html/sass/_review.scss */
 .review_part .client_review_part .client_review_img {
@@ -909,4 +913,7 @@ font-size:35px;
         width:97%;
         border-radius: 20px 20px 20px 20px;
       }
+ }
+.banner_text{
+    font-family: audiowide-regular-webfont;
  }
